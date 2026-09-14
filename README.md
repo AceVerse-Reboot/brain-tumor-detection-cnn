@@ -80,7 +80,7 @@ Or open it directly in VS Code with the Jupyter extension. The notebook walks th
 
 ## Dataset format
 
-Your own dataset should follow the same folder structure shown above — `yes`/`no` subfolders for `train` and `test`, with images of any common format (`.jpg`, `.jpeg`, `.png`). Labels are inferred automatically from folder names via Keras' `ImageDataGenerator`.
+The `Dataset` folder is not included in this repo. To run this yourself, use any brain tumor MRI dataset organized with `yes`/`no` subfolders for `train` and `test`, with images of any common format (`.jpg`, `.jpeg`, `.png`). Labels are inferred automatically from folder names via Keras' `ImageDataGenerator`. Public brain tumor MRI datasets with this structure are widely available.
 
 ## Notes for adapting this to your own data
 

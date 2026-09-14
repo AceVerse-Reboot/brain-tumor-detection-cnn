@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained model weights (large binary — don't commit)
+*.h5
+*.keras
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Dataset (often large / not yours to redistribute — remove this line if you DO want to include sample data)
+Dataset/
